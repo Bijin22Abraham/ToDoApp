@@ -1,0 +1,278 @@
+1. The year 2009 saw a huge interest in cloud computing. Which of the following events was the biggest influence in creating this “cloud hype”?
+d. World financial crisis in 2007-2008
+
+2. Which of the following options does not represent a fundamental milestone toward cloud computing in the history of computing?
+d. Virtual local-area networks (Bellcore, 1984)
+
+3. Which of the following represents NIST’s definition of cloud computing?
+e. “Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.”
+
+4. Which of the following are data center resources that can be offered through cloud computing? (Choose all that apply.)
+b. Server, e. Data storage, f. Network bandwidth
+
+5.Which of the following tools gives cloud end users access to request resources?
+a. Service catalog in web portal
+
+6. Which of the following options characterizes elasticity according to the NIST definition of cloud computing?
+. Cloud capabilities can be scaled rapidly outward and inward according to demand.
+
+7. What option best defines the opposite of the NIST essential characteristic “resource pooling” for cloud computing?
+Silos
+8. Which of the following options are direct benefits from the cloud computing measured service characteristic? (Choose all that apply.)
+a. Automatic control, c. Resource optimization, f. Transparency between provider and consumer
+
+9. Which of the following options represent devices that can utilize cloud resources? (Choose all that apply.)
+a. Personal computer, b. Mobile phones, c. Tablets
+10. What is a tenant in the context of cloud computing?
+c. Any application that requires isolation from other tenants
+
+
+11. Which of the following options represent NIST methods of classifying cloud implementations? (Choose all that apply.)
+d. Service models, b. Deployment models
+
+
+
+Ch-2
+1. Which of the following represent key aspects of a service-level agreement between a data center service provider and a consumer? (Choose all that apply.)
+a. Performance,b. Mean time to recover,d. Data handling, e. Uptime
+2. Which of the following represents the service models described by NIST?
+b. SaaS, IaaS, PaaS
+3. Which of the following are true about Infrastructure as a Service? (Choose all that apply.)
+a. Most typical consumers are IT administrators., c. IaaS basically offers computing hardware for its consumers.
+4. Which of the following are correct about cloud regions and availability zones? (Choose all that apply.)
+a. Regions represent data center installations from a cloud provider that can be used as options for the consumer resource deployment.,
+d. Availability zones are independent locations within a single data center facility.
+
+
+5.Which of the following are offered by the cloud provider in PaaS? (Choose all that apply.)
+b. Operating system,c. Computing hardware,d. Virtualization layer,e. Development tools
+6.Which of the following represents the typical PaaS consumers?
+c. Application developers
+7.Which of the following represents the typical SaaS consumers?
+b. Application end users
+8.Which of the following must be provided by the consumer in SaaS?
+None of the above
+9. Which of the following is correct about SaaS? (Choose all that apply.)
+a. Among all cloud service models, SaaS requires less customization from a consumer standpoint.
+d. SaaS providers may use PaaS resources for development and IaaS resources for production.
+
+
+
+CH-3
+1. Which of the following represents the deployment models described by NIST?
+e. Public, private, community, hybrid
+2. Which option best describes “shadow IT”?
+c. Employees from an organization deploying resources in a cloud without the knowledge of the IT department
+
+
+3. Which of the following cost risks can be associated with public cloud usage? (Choose all that apply.)
+a. Lack of forecasting modeling, b. Workload sprawl,c. Application performance issues
+4.4. According to NIST, what is the definition of private cloud?
+a. A cloud deployment provisioned for exclusive use by a single organization
+5. Which of the following options contains only regulatory compliance standards?
+b. HIPAA, PCI DSS, SOX
+6. What is “cloud bursting”?
+b. An organization can provision public cloud services to use during periods of stress of its internal IT resources.
+7. Which of the following represent challenges of hybrid cloud implementations? (Choose all that apply.)
+a. Inconsistent cloud architectures,b. Incompatible networking and security policies,  d.Requirement for application reconfiguration when an application is migrated from one cloud to another
+8. Which of the following are considered components of the Cisco Intercloud? (Choose all that apply.)
+a. Private clouds,b. Public clouds,c. Cisco Powered Partner Clouds,d. Cisco Intercloud Services
+9. Which of the following is correct about Cisco Intercloud Fabric? (Choose all that apply.)
+a. It is agnostic to server virtualization technology.,d. It has business and provider complementary solutions.
+
+
+10. Which of the following is not considered a service of Cisco Intercloud Fabric?
+d. Community cloud
+CH-4
+1. Which of the following are components of the cloud software stack? (Choose all that apply.)   b. Meter  c. Orchestrator      d. Portal
+2. Which of the following options summarizes the importance of standardization for cloud deployments?
+d. Standardization of hardware, software, processes, and offerings facilitate automation and increase predictability in a cloud computing deployment.
+3. Which of the following are not characteristics of RESTful application programming interfaces? (Choose all that apply.)
+b. Only supports XML data  , e. Designed for human reading
+___________________________________________________________________________
+CH-5
+1. Which of the following is not a server hardware component?
+c. Operating system
+2. Which of the following is not a server operating system?
+c. Cisco IOS
+3. Which of the following advantages were achieved through mainframe virtualization in the early 1970s? (Choose two.) b. Legacy application support    d. User isolation
+4. Which of the following is not an advantage from server virtualization on x86 servers? (Choose all that apply.)
+b. Network provisioning,  d. Management cost decrease
+5. Which of the following are Type-1 hypervisors? (Choose all that apply.)
+a. Linux KVM, b. Xen , c. Microsoft Hyper-V
+6. Which of the following identify a hypervisor and its corresponding VM manager? (Choose all that apply.)
+a. KVM and oVirt ,,  d. ESXi and vCenter  , e. KVM and OpenStack Nova
+7. Which of the following is not a virtual machine file?
+d. NFS, 
+8. Which of the following statements is false?
+b. Live migration is a disaster recovery feature that allows the migration of VMs after a physical server suffers a major hardware failure.
+9. In which of the following features is a disruption in associated virtual machines expected?
+c. High availability
+10. Which of the following features enables cloud computing pooling characteristics?
+d. Resource load balancing
+—-------------------------------------------------------------------------------------------------------------
+CH-6
+1. Which of the following is not applicable to virtual switching in general?
+c. Does not allow live migration of VMs
+
+
+
+2. Which of the following are differences between the VMware vNetwork Standard Switch and the VMware vNetwork Distributed Switch? (Choose four.)
+a. VMware vCenter requirement, b. Uplink Port Groups, d. Resides in more than one host,
+ f. Supports LACP
+3. Which of the following virtual devices can be considered distributed virtual switches? (Choose three.)
+b. Open vSwitch, e. VMware vDS,  f. Cisco Nexus 1000V
+4. Which of the following are correct about Cisco Nexus 1000V Switch for VMware vSphere? (Choose four.)
+A. The communication between the VSM and VEM requires Layer 3 connectivity., , 
+c. The VEM runs inside the VMware vSphere kernel.
+e. Cisco Nexus 1000V can coexist with other virtual switches in the same host.
+h. The communication between active and standby VSMs requires Layer 2 connectivity.
+5. Which of the following are correct associations of Cisco Nexus 1000V interfaces and VMware vSphere interfaces? (Choose two.)
+b. vEthernet and vmk, d. Ethernet and vmnic
+6. Which of the following is not a Cisco Nexus 1000V feature?
+c. DHCP server
+7. Which hypervisors support Cisco Nexus 1000V? (Choose three.)
+b. Microsoft Hyper-V for Windows 2012,    c. VMware vSphere,,,   e. KVM
+8. Which protocols are used in the VXLAN encapsulation header? (Choose two.)
+c. UDP,    d. IP
+9. Which of the following are advantages of VXLANs over VLANs? (Choose three.)
+a. Avoids MAC address table overflow in physical switches
+b. Offers easier provisioning of broadcast domains for virtual machines
+c. Provides more segments
+10. Which of the following represent improvements of Cisco Nexus 1000V Enhanced VXLAN over standard VXLAN deployments? (Choose two.)
+b. Does not require IP multicast
+d. Eliminates flooding
+___________________________________________________________________________
+CH-7
+1. Which of the following is not a data center networking service?
+c. Network access control
+2. Which of the following are enhancements of vPath over service insertion methods such as VLAN manipulation, PBR, and WCCP? (Choose all that apply.)
+a. Performance, b. Service chains, d. Policy-based forwarding, e. Traffic offload
+3. Which of the following are differences between VSG and ASAv? (Choose all that apply.)
+a. VSG policies can be executed inside the hypervisor kernel.
+c. ASAv must analyze every packet from a connection.
+4. Which network operating system does CSR 1000V run?
+d. IOS XE
+5. Which of the following is not a benefit applications gain from the use of ADCs?
+d. Clustering
+6. Which of the following are required configuration elements when deploying server load balancing in Citrix NetScaler 1000V? (Choose all that apply.)
+b. Virtual IP address, c. Monitor, d. Servers
+7. Which of the following is not a WAN acceleration method available on vWAAS?
+a. TFC
+8. Which of the following virtual networking services support vPath? (Choose all that apply.)
+a. VSG , d. vWAAS e. NetScaler 1000V
+9. Which of the following solutions are components of Cisco Virtual Application Cloud Segmentation? (Choose all that apply.)
+a. Nexus 1000V, b. PNSC, c. UCS Director,, e. VSG, f. CSR 1000V
+10. Which of the following are differences between three-tier and custom virtual application containers? (Choose all that apply.)
+a. Additional security zones, c. Number of application tiers, e. Number of segments
+—-------------------------------------------------------------------------------------------------------------
+CH-8
+1. Which of the following is a correct statement?
+c. Tape libraries are considered tertiary storage.
+2. Which of the following represents data addressing in HDDs?
+c. Cylinder/head/sector
+3. Which option describes an incorrect RAID level description?
+d. RAID 10: Striping, multiple parity
+4. Which of the following is not an array component?
+c. JBOD
+5. Which of the following devices can potentially deploy volume thin provisioning? (Choose all that apply.)
+b. Storage array, c. Server, d. Dedicated appliance
+6. Which of the following are block I/O access methods? (Choose all that apply.)
+a. ATA, b. SCSI, c. SAN
+7. Which of the following options is incorrect?
+b. FC-1: Frame transmission and signaling
+8. Which of the following is correct concerning Fibre Channel addressing?
+d. FSPF is used to exchange routes based on domain IDs.
+9. Which of the following is an accurate list of common SAN topologies?
+d. Collapsed core, core-edge, edge-core-edge
+10. Which of the following is not an advantage for the deployment of VSANs?
+c. Zoning replacement
+11. Which of the following is incorrect about iSCSI?
+c. Employs TCP connections to encapsulate Fibre Channel frames.
+
+12. Which is the most popular block I/O access method for cloud offerings of Storage as a Service?
+b. iSCSI
+—-------------------------------------------------------------------------------------------------------------CH-9
+1. Which of the following is not a usual part of file metadata?
+c. Category
+2. Which of the following represents a true difference between block storage and file storage technologies?
+d. File storage devices can control content.
+3. Which of the following lists permissions from Linux files?
+a. Read, write, and execute
+4. Which of the following lists the available options for volume formatting in Windows platforms?
+d. NTFS, FAT16, FAT32
+5. Which Linux command allows a file to be fully controlled by any system user?
+b. chmod 777
+6. Which of the following is not a difference between SAN and NAS?
+c. NAS does not support RAID.
+7. Which of the following is correct about the MOUNT protocol?
+c. It allows a client to attach a remote directory tree to a local file system.
+8. Which of the following is not part of SMB architecture?
+e. POSIX
+9. Which is the most commonly used access protocol for cloud file-hosting services?
+a. HTTP
+10. Which file access protocol can be used to store VM files from VMware ESXi?
+c. NFS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
